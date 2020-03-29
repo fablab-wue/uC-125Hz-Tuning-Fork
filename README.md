@@ -19,6 +19,8 @@ Dim the room light and lit the markings with the Strobo-LED. If the motor speed 
 
 Designed for an Arduino Nano (or any other Arduino with AVR ATmega328).
 
+![](img/Strobo125.png)
+
 Use a ultra bright white LED and connect it between arduino pin D3 and GND with a serial resistor of 47 Ohm. 
 
 The LED shows NOT the full light to human eyes because the PWM pulses the LED with a duty cycle of 10%.
