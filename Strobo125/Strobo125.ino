@@ -15,17 +15,17 @@ void setup() {
   OCR2B = 25;   // 10% duty cycle
 
   // PWM timer 0
-  pinMode(5, OUTPUT);
-  TCCR0A = _BV(COM0A0) | _BV(COM0B1) | _BV(WGM00);   // PWM phase corrected
-  TCCR0B = _BV(WGM02) | _BV(CS02);  // set prescaler to 256
-  OCR0A = 250;
-  OCR0B = 10;   // 4% duty cycle
+  // pinMode(5, OUTPUT);
+  // TCCR0A = _BV(COM0A0) | _BV(COM0B1) | _BV(WGM00);   // PWM phase corrected
+  // TCCR0B = _BV(WGM02) | _BV(CS02);  // set prescaler to 256
+  // OCR0A = 250;
+  // OCR0B = 10;   // 4% duty cycle
 
   // LED status
-  pinMode(13, OUTPUT);
+  // pinMode(LED_BUILTIN, OUTPUT);
 }
 
 void loop() {
-  delay(125);
-  digitalWrite(13, ! digitalRead(13));   // status LED blink
+  // digitalWrite(LED_BUILTIN, ! digitalRead(LED_BUILTIN));
+  // delay(500);
 }
