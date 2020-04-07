@@ -30,3 +30,16 @@ The LED shows NOT the full light to human eyes because the PWM pulses the LED wi
 ![](img/StroboMeas.jpg)
 
 Accuracy is adequate.
+
+# Build Examples
+
+### Torch Light
+
+![](img/StroboFunzel1.jpg)
+
+![](img/StroboFunzel2.jpg)
+
+![](img/StroboFunzel3.jpg)
+
+The Arduino Nano is glued on a cheep torch light with three AAA batteries. The battery voltage is between 4.5V and 3V (empty) and fits the spec of the AVR.
+An additional NPN-transistor (BC337) is used to switch the 200mA from the 1Watt LED.
