@@ -9,9 +9,7 @@ The fork oscillates with __125Hz__ which gives a shuttering frequency of __250Hz
 
 In this project an __Arduino-Nano__-based __stroboscope__ gives pulses with __250Hz__ and 10 % duty cycle to let a __LED__ flicker.
 
-<img src="img/StroboPCB.jpg" width="320px">
-
-<img src="img/StroboFinish.jpg" width="320px">
+<img src="img/StroboPCB.jpg" width="320px"> <img src="img/StroboFinish.jpg" width="320px">
 
 # Using this Stroboscope
 
@@ -19,9 +17,7 @@ Mechanical teletypes have black and white markings at the motor axis. These mark
 
 Dim the room light and lit the markings with the Strobo-LED. If the motor speed is perfectly adjusted, the marking looks to stand still.
 
-<img src="img/StroboFS1.jpg" width="320px">
-<img src="img/StroboFS2.jpg" width="320px">
-<img src="img/StroboFS3.jpg" width="320px">
+<img src="img/StroboFS1.jpg" width="216px"> <img src="img/StroboFS2.jpg" width="216px"> <img src="img/StroboFS3.jpg" width="216px">
 
 # Electronic
 
@@ -45,6 +41,4 @@ Accuracy is adequate.
 
 The Arduino Nano is glued on a cheap torch light with three AAA batteries. The battery voltage is between 4.5V and 3V (empty) and fits the spec of the AVR chip. An additional NPN-transistor (BC337) is used to switch the 200mA from the 1Watt LED.
 
-<img src="img/StroboFunzel1.jpg" width="320px">
-<img src="img/StroboFunzel2.jpg" width="320px">
-<img src="img/StroboFunzel3.jpg" width="320px">
+<img src="img/StroboFunzel1.jpg" width="640px"> <img src="img/StroboFunzel2.jpg" width="320px"> <img src="img/StroboFunzel3.jpg" width="320px">
